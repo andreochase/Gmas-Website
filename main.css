@@ -1,0 +1,574 @@
+* {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.buttons {
+  display: flex !important;
+  padding-left: 400px;
+}
+
+.buttons button {
+  transition: transform 0.5s;
+}
+
+.buttons button:hover {
+  color: red;
+  transform: translateY(-5px)
+}
+
+.maincontainer {
+  background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.5), 
+      rgba(0, 0, 0, 0.5)
+    ),
+    url('./images/bread.jpg');
+  height: 800px;
+  color: white;
+  padding-left: 400px;
+  padding-top: 250px;
+}
+
+.navbar {
+  overflow: hidden;
+}
+
+.navbar-brand {
+  padding-left: 100px;
+}
+
+.navbar-nav {
+  display: inline-flex !important;
+  padding-left: 150px !important;
+}
+
+.navbar-nav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.footer {
+  width: 1920px;
+}
+
+.video {
+  width: 85px;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  height: 50px;
+  overflow: hidden;
+  padding: 1vh 1vw;
+  margin-top: 50px;
+}
+
+.snd-recipe {
+  width: 90px;
+  font-size: 0.9rem;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  height: 35px;
+  overflow: hidden;
+  padding: 1vh 1vw;
+}
+
+.snd-shop-recipe {
+  width: 90px;
+  font-size: 0.9rem;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  height: 35px;
+  overflow: hidden;
+  padding-left: 26px;
+  padding-top: 10px;
+}
+
+.picnic {
+  width: 85px;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  height: 10px;
+  overflow: hidden;
+  padding: 1vh 1vw;
+}
+
+.sideways-container {
+  background-color: rgb(248, 240, 232);
+  width: 71%;
+  display: inline-flex;
+  justify-content: center;
+  margin-left: 300px;
+  margin-top: 110px;
+  height: 860px;
+}
+
+.shopimg{
+  background-image: url("./images/shelves.jpg");
+  margin-top: -45px;
+  margin-left: 110px;
+  width: 600px;
+  height: 600px;
+}
+
+.recipeimg {
+  background-image: url("./images/justcookies.jpg"); 
+  margin-top: 200px;
+  margin-left: 200px;
+  width: 600px;
+  height: 600px;
+}
+
+.shop {
+  background-color: rgb(248, 240, 232);
+  margin-top: 420px;
+  width: 350px;
+  height: 185px;
+  padding-top: 30px
+}
+
+.recipe {
+  background-color: rgb(248, 240, 232);
+  margin-top: 415px;
+  width: 350px;
+  height: 185px;
+  padding-top: 30px
+}
+
+.card-title {
+  padding-top: 20px;
+}
+
+.baking {
+  padding-top: 30px;
+}
+
+.head {
+  font-size: 4rem !important;
+}
+
+.gtr {
+  border-color: red;
+  background-color: red;
+  border-width: thin;
+  font-size: 0.8rem;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 6px;
+  width: 120px;
+  transition: background 0.5s;
+}
+
+.gtr:hover {
+  background: white;
+  color: red;
+}
+
+.dash {
+  width: 200px;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  height: 50px;
+  overflow: hidden;
+  padding: 1vh 1vw;
+}
+
+.baguettes {
+  background-color: rgb(248, 240, 232) !important;
+  width: 450px;
+  padding-left: 80px;
+  text-align: left;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.watch_now {
+  border-color: red;
+  background-color: rgb(248, 240, 232);
+  border-width: thin;
+  font-size: 0.8rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 6px;
+  width: 120px;
+  transition: background 0.5s;
+}
+
+.watch_now:hover {
+  background: red;
+  color: white;
+}
+
+.shop_now {
+  border-color: red;
+  background-color: white;
+  border-width: thin;
+  font-size: 0.8rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 5px;
+  width: 120px;
+  transition: background 0.5s;
+}
+
+.learn_more {
+  border-color: red;
+  background-color: white;
+  border-width: thin;
+  font-size: 0.8rem;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 5px;
+  width: 120px;
+  transition: background 0.5s;
+}
+
+.shop_now:hover {
+  background: red;
+  color: white;
+}
+
+.learn_more:hover {
+  background: red;
+  color: white;
+}
+
+.img_baguette {
+  width: 900px;
+}
+
+.card-img-top {
+  width: 500px !important;
+}
+
+.videocontainer {
+  display: inline-flex;
+  height: 500px;
+  padding-top: 70px !important;
+  padding-left: 300px;
+}
+
+.bakers_love_container {
+  background-color: rgb(248, 240, 232);
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-left: 450px;
+  margin-top: 50px;
+}
+
+.bakers_header {
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+
+.card_container {
+  display: inline-flex;
+  padding-bottom: 60px;
+  padding-top: 60px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+.wbl {
+  padding-right: 420px;
+  padding-top: 30px;
+}
+
+.row {
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  padding-bottom: 40px;
+  width: 500px !important;
+  height: 650px;
+}
+
+.best-sellers {
+  display: flex !important;
+  flex-direction: row;
+  padding: 30px;
+  background-color:rgb(248, 240, 232);
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 180px;
+  height: 280px;
+}
+
+.shop-row {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-top: 400px;
+}
+
+.h12 {
+  display: block;
+  margin-top: 60px;
+  padding-left: 830px;
+}
+
+.description {
+  padding-top: 10px;
+  display: inline-block;
+}
+
+.score {
+  display: inline-flex;
+  font-size: 16px;
+  position: relative;
+}
+
+.score-wrap {
+  display: inline-flex;
+  position: relative;
+  height: 19px;
+}
+
+.description .price {
+  font-weight: bolder;
+}
+
+div.name {
+  margin-bottom: 50px;
+  cursor: pointer;
+  font-weight: bolder;
+  transform: color;
+}
+
+div.name:hover {
+  color: red;
+}
+
+.rating  {
+  padding-bottom: 40px;
+}
+
+.best-container {
+  display: flex !important;
+  background-color: white;
+  border: thin solid;
+  border-color: grey;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  margin-right: 40px;
+  margin-top: -360px;
+  width: 200px;
+  height: 210px;
+}
+
+.best-container-2 {
+  display: flex !important;
+  background-color: white;
+  border: thin solid;
+  border-color: grey;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 40px;
+  margin-top: -360px;
+  width: 200px;
+  height: 210px;
+}
+
+.best-container-3 {
+  display: flex !important;
+  background-color: white;
+  border: thin solid;
+  border-color: grey;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 60px;
+  margin-right: 40px;
+  margin-top: -360px;
+  width: 200px;
+  height: 210px;
+}
+
+.best-container-4 {
+  display: flex !important;
+  background-color: white;
+  border: thin solid;
+  border-color: grey;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  margin-right: 40px;
+  margin-top: -360px;
+  width: 200px;
+  height: 210px;
+}
+
+.best-container-5 {
+  display: flex !important;
+  background-color: white;
+  border: thin solid;
+  border-color: grey;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40px;
+  margin-right: 40px;
+  margin-top: -360px;
+  width: 200px;
+  height: 210px;
+}
+
+.sell-1 {
+  background-image: url("./images/flour.jpg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.sell-1:hover {
+  background-image: url("./images/cinnamonrolls.jpg");
+  background-repeat: no-repeat;
+  margin-right: 13px;
+  margin-top: 25px;
+  width: 200px;
+  height: 200px;
+}
+
+.sell-2 {
+  background-image: url("./images/ice-cream-scooper.jpg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.sell-2:hover {
+  background-image: url("./images/icecream.jpg");
+  background-repeat: no-repeat;
+  margin-left: 35px;
+  width: 200px;
+  height: 200px;
+}
+
+.sell-3 {
+  background-image: url("./images/vanilla-extract.jpg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.sell-3:hover {
+  background-image: url("./images/vanillaextract.jpg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.sell-4 {
+  background-image: url("./images/parchment-paper.jpg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.sell-5 {
+  background-image: url("./images/pizza-flour.jpg");
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+}
+
+.cardcontainer {
+  background-color: #FBB040;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.limitedtime {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+}
+
+.img img {
+  width: 400px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.shipfree {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+}
+
+.madeusa {
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+}
+
+.lto {
+  width: 180px;
+  border-right: 2px solid red;
+  border-left: 2px solid red;
+  height: 35px;
+  overflow: hidden;
+  padding: 1vh 1vw;
+  text-align: center;
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+.mAin {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1.5rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.sUbmAin {
+  text-align: center;
+  font-size: 1rem;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-weight: bold;
+  color: lightgray;
+}
+
+.gtr2 {
+  border-color: red;
+  background-color: red;
+  border-width: thin;
+  font-size: 0.8rem;
+  color: white;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  padding: 6px;
+  width: 120px;
+  margin-left: 130px;
+  transition: background 0.5s;
+}
+
+.gtr2:hover {
+  background: white;
+  color: red;
+}
